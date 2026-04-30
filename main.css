@@ -1,77 +1,24 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f7fb;
-  color: #222;
+h1 {
+  font-size: 40px;
+  font-family: Arial;
 }
 
-.top-header {
-  background-color: #004b8d;
-  color: white;
-  padding: 18px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h2 {
+  font-size: 25px;
+  font-family: Arial;
 }
 
-.top-header h1 {
-  margin: 0;
-  font-size: 30px;
+h3 {
+  font-family: Arial;
 }
 
-.top-header p {
-  margin: 5px 0 0;
-  font-size: 16px;
+p {
+  font-size: 14px;
+  font-family: Arial;
 }
 
-.logo {
-  width: 95px;
-  height: auto;
-  background-color: white;
-  padding: 6px;
-  border-radius: 4px;
-}
-
-.hero {
-  width: 80%;
-  margin: 40px auto 25px;
-  background-color: white;
-  padding: 35px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.hero h2 {
-  color: #004b8d;
-  font-size: 30px;
-  margin-bottom: 15px;
-}
-
-.hero p {
-  font-size: 17px;
-  line-height: 1.6;
-}
-
-.info-section {
-  width: 80%;
-  margin: 20px auto;
-  display: flex;
-  gap: 20px;
-}
-
-.info-card {
-  background-color: white;
-  padding: 25px;
-  border-radius: 10px;
-  flex: 1;
-}
-
-.info-card h3 {
-  color: #004b8d;
-  margin-top: 0;
-}
-
-.info-card p {
-  font-size: 15px;
-  line-height: 1.5;
+/* STEP 30 REQUIREMENT */
+.header {
+  background-color: darkcyan;
+  text-align: right;
 }
